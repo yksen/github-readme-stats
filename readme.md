@@ -286,6 +286,7 @@ You can provide multiple comma-separated values in the bg_color option to render
 -   `custom_title` - Sets a custom title for the card. Default:  `<username> GitHub Stats`.
 -   `text_bold` - Use bold text _(boolean)_. Default: `true`.
 -   `disable_animations` - Disables all animations in the card _(boolean)_. Default: `false`.
+-   `ring_color` - Color of the rank circle _(hex color)_. Defaults to the theme ring color if it exists and otherwise the title color.
 
 > **Note**
 > When hide_rank=`true`, the minimum card width is 270 px + the title length and padding.
@@ -303,6 +304,7 @@ You can provide multiple comma-separated values in the bg_color option to render
 -   `langs_count` - Show more languages on the card, between 1-10 _(number)_. Default `5`.
 -   `exclude_repo` - Exclude specified repositories _(Comma-separated values)_. Default: `[] (blank array)`.
 -   `custom_title` - Sets a custom title for the card _(string)_. Default `Most Used Languages`.
+-   `disable_animations` - Disables all animations in the card _(boolean)_. Default: `false`.
 
 > **Warning**
 > Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
